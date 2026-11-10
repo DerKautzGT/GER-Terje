@@ -430,20 +430,3 @@ Um bestimmten Spielern einen Zonenschutz zuzuweisen, musst du **Core.UseCustomPr
 ```cs
 Core.UseCustomProtectionConfigs = true;
 ```
-Starte den Server neu, nachdem du diesen Parameter aktiviert hast.
-
-Im Ordner **profiles\TerjeSettings\CustomProtection** findest du dann eine Datei namens **psionic.txt**.
-
-Dort kannst du die SteamIDs der Spieler eintragen, die du schützen möchtest. Jede SteamID muss in eine neue Zeile geschrieben werden.
-
-#### Beispiel:
-```cs
-76561190000000000
-76561190000000001
-76561190000000002
-```
----
-
-## ⚙️ Zonenkonfiguration:
-- **Intensität und Größe der Zonen** lassen sich in der [Konfiguration](https://github.com/TerjeBruoygard/TerjeMods/blob/master/WIKI/en/Modding/README.md#zones) über die Festlegung der Gefahrenstufe anpassen.
-- Ein **Schutzanzug-Set** kannst du anhand der [Anleitung](https://github.com/TerjeBruoygard/TerjeMods/blob/master/WIKI/en/Modding/README.md#parameters-protectionbodyvalues-and-protectionbodythresholds) erstellen.
